@@ -23,3 +23,30 @@ Assets/
 2. Copy:
    - `model.onnx` → `Assets/Models/MiniLMv6/`
    - `vocab.txt` → `Assets/Data/vocab/`
+
+### Run the Demo
+
+1. Open the project in **Unity 2023 LTS**.  
+2. Open the scene:
+   ```text
+   Assets/Scenes/SentenceSimilarityDemo.unity
+   ```
+3. In the Inspector, assign:
+    - Model Asset → Assets/Models/MiniLMv6/model.onnx
+    - Vocab Asset → Assets/Data/vocab/vocab.txt
+4. Press **Play** type a source sentence, add comparisons, and click **Compute** to see results.
+
+### Example Output
+
+When you run the demo, you can type any source sentence and compare it against multiple others in real time.
+
+Example:
+
+| Source | Comparison | Similarity |
+|---------|-------------|------------|
+| "Welcome to Jumanji!" | "Don't just stand there, hop in." | **0.39** |
+| "Welcome to Jumanji!" | "I love pizza." | **0.17** |
+
+These values will vary slightly depending on your model backend (CPU vs GPU) but should follow the same pattern — higher values for semantically related sentences.
+
+
