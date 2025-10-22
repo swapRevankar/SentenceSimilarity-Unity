@@ -3,6 +3,7 @@ This demo uses a lightweight **MiniLMv6** sentence-embedding model and a BERT-st
 Due to size and licensing, these files are **not included** in the repository — you’ll need to download them manually.
 
 ### Expected folder structure
+```text
 Assets/
 ├─ Models/
 │ └─ MiniLMv6/
@@ -11,7 +12,7 @@ Assets/
 ├─ Data/
 │ └─ Vocab/
 │ └─ vocab.txt
-
+```
 - **`model.onnx`** – exported MiniLMv6 ONNX model  
 - **`vocab.txt`** – tokenizer vocabulary file
 
