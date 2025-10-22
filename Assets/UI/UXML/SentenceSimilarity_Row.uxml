@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SentenceSimilarity/UI/CompareStyleSheet.uss?fileID=7433441132597879392&amp;guid=deb7b096bf6680f4e951499655170a86&amp;type=3#CompareStyleSheet" />
+    <ui:TextField placeholder-text="Your sentence here..." name="CompareInput" />
+</ui:UXML>

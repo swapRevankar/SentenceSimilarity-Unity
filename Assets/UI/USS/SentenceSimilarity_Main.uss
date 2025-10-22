@@ -1,0 +1,28 @@
+:root {
+}
+
+.secondaryLabels {
+    font-size: 18px;
+}
+
+#RootContainer01 > #RootContainer02 > #SourceGroup > .unity-text-field > #unity-text-input {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-left-color: rgb(247, 247, 247);
+    border-right-color: rgb(247, 247, 247);
+    border-top-color: rgb(247, 247, 247);
+    border-bottom-color: rgb(247, 247, 247);
+}
+
+#RootContainer01 > #RootContainer02 > #CompareArea > .unity-scroll-view--vertical > .unity-text-field > #unity-text-input {
+    border-left-color: rgb(247, 247, 247);
+    border-right-color: rgb(247, 247, 247);
+    border-top-color: rgb(247, 247, 247);
+    border-bottom-color: rgb(247, 247, 247);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}

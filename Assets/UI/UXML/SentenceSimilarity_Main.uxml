@@ -1,0 +1,21 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SentenceSimilarity/UI/StyleSheet.uss?fileID=7433441132597879392&amp;guid=5473ac6626cd3bf469308ae4ce0238ac&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="RootContainer01" style="flex-grow: 1; background-color: rgb(240, 240, 241); border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;">
+        <ui:VisualElement name="RootContainer02" style="flex-grow: 1; background-color: rgb(255, 255, 255); width: 600px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; flex-wrap: wrap; align-items: stretch; justify-content: flex-start; align-self: center; margin-top: 120px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; align-content: flex-start; max-height: 750px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px;">
+            <ui:Label text="Sentence Similarity (MiniLM)&#10;" name="Title" style="font-size: 22px; -unity-font-style: bold; color: rgb(32, 33, 36);" />
+            <ui:VisualElement name="SourceGroup" style="flex-grow: 1; max-height: 105px;">
+                <ui:Label text="Source Sentence:&#10;" name="SourceSentenceTitle" class="secondaryLabels" />
+                <ui:TextField placeholder-text="Your sentence here..." name="SourceInput" />
+            </ui:VisualElement>
+            <ui:VisualElement name="CompareArea" style="flex-grow: 1; max-height: 200px;">
+                <ui:Label text="Sentences To Compare To:" name="CompareSentenceTitle" class="secondaryLabels" />
+                <ui:ScrollView name="SentencesContainer" />
+            </ui:VisualElement>
+            <ui:Button text="Add Sentence" name="AddSentence" style="border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; background-size: 100% 100px;" />
+            <ui:VisualElement name="ComputeArea" style="flex-grow: 1; padding-top: 10px; padding-bottom: 10px;">
+                <ui:Button text="Compute" name="ComputeButton" style="border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; max-width: 150px;" />
+                <ui:ScrollView name="ResultsContainer" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

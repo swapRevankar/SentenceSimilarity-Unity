@@ -1,0 +1,13 @@
+:root {
+}
+
+#CompareInput > #unity-text-input {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-left-color: rgb(247, 247, 247);
+    border-right-color: rgb(247, 247, 247);
+    border-top-color: rgb(247, 247, 247);
+    border-bottom-color: rgb(247, 247, 247);
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SentenceSimilarity/UI/row.uss?fileID=7433441132597879392&amp;guid=2e484b7065b27b2489ba2c91cce3e5d1&amp;type=3#row" />
+    <ui:VisualElement name="SentenceScoreRoot" style="flex-grow: 1; padding-top: 10px; padding-bottom: 0;">
+        <ui:VisualElement name="BarBg" style="flex-grow: 1; height: 4px; max-height: 4px; background-color: rgb(224, 226, 242); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px;">
+            <ui:VisualElement name="BarFill" style="flex-grow: 1; height: 100%; background-color: rgb(108, 92, 231); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; width: 2px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SentenceScoreRow" style="flex-grow: 1; flex-direction: row; justify-content: space-between; align-self: auto;">
+            <ui:Label text="Label" name="SentenceLabel" style="flex-direction: column;" />
+            <ui:Label text="Label" name="ScoreLabel" style="flex-direction: column; align-self: flex-start;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
